@@ -1,0 +1,9 @@
+# Resfile for inducing point mutagenesis in COV107_23: T57A (Original numbering, not on PDB file)
+
+NATAA
+EX 1 EX 2
+USE_INPUT_SC
+start
+
+# Mutate residues
+56 A PIKAA A
