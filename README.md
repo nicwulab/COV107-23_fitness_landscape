@@ -12,7 +12,7 @@ Code to analyze deep sequencing files of COV107-23 combinatorial mutations, and 
 
 ### Input files
 
-Due to large size of fastq files, they cannot be uploaded to Github. Please download fastq files from NCBI, and transfer to fastq folder.
+Due to large size of fastq files, they cannot be uploaded to Github. Create a /fastq/ folder. Please download fastq files from NCBI, and transfer to fastq folder.
 * [./Fasta/COV107_germline_ref.fa](./Fasta/COV107_germline_ref.fa): Amino acid sequence of COV107-23 germline
 * [./fastq/Sample1_ATCACGAT_L001_R1_001.fastq](https://www.ncbi.nlm.nih.gov/sra/?term=SRS9801776): Input expression forward reads
 * [./fastq/Sample1_ATCACGAT_L001_R2_001.fastq](https://www.ncbi.nlm.nih.gov/sra/?term=SRS9801777): Input expression reverse reads
@@ -23,7 +23,7 @@ Due to large size of fastq files, they cannot be uploaded to Github. Please down
 
 ### I. Calculate counts and fitness from fastq files
 
-1. Calculate read counts and fitness from fastq files
+1. Calculate read counts and fitness from fastq files. Create a /fastq/ folder to store all downloaded fastq files.
 ``python scripts/COV107SHM_fq2fit.py``
 
 - Input files
