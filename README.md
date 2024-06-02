@@ -12,13 +12,14 @@ Code to analyze deep sequencing files of COV107-23 combinatorial mutations, and 
 
 ### Input files
 
+Due to large size of fastq files, they cannot be uploaded to Github. Please download fastq files from NCBI, and transfer to fastq folder.
 * [./Fasta/COV107_germline_ref.fa](./Fasta/COV107_germline_ref.fa): Amino acid sequence of COV107-23 germline
-* [./fastq/Sample1_ATCACGAT_L001_R1_001.fastq](./fastq/Sample1_ATCACGAT_L001_R1_001.fastq): Input expression forward reads
-* [./fastq/Sample1_ATCACGAT_L001_R2_001.fastq](./fastq/Sample1_ATCACGAT_L001_R2_001.fastq): Input expression reverse reads
-* [./fastq/Sample2_CGATGTAT_L001_R1_001.fastq](./fastq/Sample2_CGATGTAT_L001_R1_001.fastq): Sorted expression forward reads (Replicate 1)
-* [./fastq/Sample2_CGATGTAT_L001_R2_001.fastq](./fastq/Sample2_CGATGTAT_L001_R2_001.fastq): Sorted expression reverse reads (Replicate 1)
-* [./fastq/Sample3_TTAGGCAT_L001_R1_001.fastq](./fastq/Sample3_TTAGGCAT_L001_R1_001.fastq): Sorted expression forward reads (Replicate 2)
-* [./fastq/Sample3_TTAGGCAT_L001_R2_001.fastq](./fastq/Sample3_TTAGGCAT_L001_R1_001.fastq): Sorted expression reverse reads (Replicate 2)
+* [./fastq/Sample1_ATCACGAT_L001_R1_001.fastq](https://www.ncbi.nlm.nih.gov/sra/?term=SRS9801776): Input expression forward reads
+* [./fastq/Sample1_ATCACGAT_L001_R2_001.fastq](https://www.ncbi.nlm.nih.gov/sra/?term=SRS9801777): Input expression reverse reads
+* [./fastq/Sample2_CGATGTAT_L001_R1_001.fastq](https://www.ncbi.nlm.nih.gov/sra/?term=SRS9801778): Sorted expression forward reads (Replicate 1)
+* [./fastq/Sample2_CGATGTAT_L001_R2_001.fastq](https://www.ncbi.nlm.nih.gov/sra/?term=SRS9801779): Sorted expression reverse reads (Replicate 1)
+* [./fastq/Sample3_TTAGGCAT_L001_R1_001.fastq](https://www.ncbi.nlm.nih.gov/sra/?term=SRS9801780): Sorted expression forward reads (Replicate 2)
+* [./fastq/Sample3_TTAGGCAT_L001_R2_001.fastq](https://www.ncbi.nlm.nih.gov/sra/?term=SRS9801781): Sorted expression reverse reads (Replicate 2)
 
 ### I. Calculate counts and fitness from fastq files
 
@@ -27,12 +28,12 @@ Code to analyze deep sequencing files of COV107-23 combinatorial mutations, and 
 
 - Input files
     - [./Fasta/COV107_germline_ref.fa](./Fasta/COV107_germline_ref.fa): Amino acid sequence of COV107-23 germline
-    - [./fastq/Sample1_ATCACGAT_L001_R1_001.fastq](./fastq/Sample1_ATCACGAT_L001_R1_001.fastq): Input expression forward reads
-    - [./fastq/Sample1_ATCACGAT_L001_R2_001.fastq](./fastq/Sample1_ATCACGAT_L001_R2_001.fastq): Input expression reverse reads
-    - [./fastq/Sample2_CGATGTAT_L001_R1_001.fastq](./fastq/Sample2_CGATGTAT_L001_R1_001.fastq): Sorted expression forward reads (Replicate 1)
-    - [./fastq/Sample2_CGATGTAT_L001_R2_001.fastq](./fastq/Sample2_CGATGTAT_L001_R2_001.fastq): Sorted expression reverse reads (Replicate 1)
-    - [./fastq/Sample3_TTAGGCAT_L001_R1_001.fastq](./fastq/Sample3_TTAGGCAT_L001_R1_001.fastq): Sorted expression forward reads (Replicate 2)
-    - [./fastq/Sample3_TTAGGCAT_L001_R2_001.fastq](./fastq/Sample3_TTAGGCAT_L001_R1_001.fastq): Sorted expression reverse reads (Replicate 2)
+    - [./fastq/Sample1_ATCACGAT_L001_R1_001.fastq](https://www.ncbi.nlm.nih.gov/sra/?term=SRS9801776): Input expression forward reads
+    - [./fastq/Sample1_ATCACGAT_L001_R2_001.fastq](https://www.ncbi.nlm.nih.gov/sra/?term=SRS9801777): Input expression reverse reads
+    - [./fastq/Sample2_CGATGTAT_L001_R1_001.fastq](https://www.ncbi.nlm.nih.gov/sra/?term=SRS9801778): Sorted expression forward reads (Replicate 1)
+    - [./fastq/Sample2_CGATGTAT_L001_R2_001.fastq](https://www.ncbi.nlm.nih.gov/sra/?term=SRS9801779): Sorted expression reverse reads (Replicate 1)
+    - [./fastq/Sample3_TTAGGCAT_L001_R1_001.fastq](https://www.ncbi.nlm.nih.gov/sra/?term=SRS9801780): Sorted expression forward reads (Replicate 2)
+    - [./fastq/Sample3_TTAGGCAT_L001_R2_001.fastq](https://www.ncbi.nlm.nih.gov/sra/?term=SRS9801781): Sorted expression reverse reads (Replicate 2)
 - Output file
     - [./results/COV107_mutlib_fit.tsv](./results/COV107_mutlib_fit.tsv)
 
