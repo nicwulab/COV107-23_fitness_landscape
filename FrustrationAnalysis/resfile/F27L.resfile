@@ -1,0 +1,9 @@
+# Resfile for inducing point mutagenesis in COV107_23: F27L (Original numbering, not on PDB file)
+
+NATAA
+EX 1 EX 2
+USE_INPUT_SC
+start
+
+# Mutate residues 
+26 A PIKAA L
